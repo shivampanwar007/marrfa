@@ -1,14 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import BlogHomepage from './components/BlogHomepage';
+// src/App.jsx
+import Home from './pages/Home';
 
 function App() {
-  return (
-    <div>
-      <BlogHomepage/>
-    </div>
-
-  );
+  return <Home />;
 }
 
 export default App;
